@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal portfolio page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c7303ff3d3.js" crossorigin="anonymous"></script>
+    <link href='https://fonts.googleapis.com/css?family=Varela Round' rel='stylesheet'>
+    <style>
+        body {
+            font-family: 'Varela Round';font-size: 22px;
+        }
+        </style>
+    
+</head>
+
+<body>
+    <div id='header'>
+        <div class="container">
+            <nav>
+                <img src="cat.gif" class="logo" alt="logo.png">
+                <ul id="sidemenu">
+                    <li class="contact-link"><a href="#header"> Home </a></li>
+                    <li class="contact-link"><a href="#about"> About </a></li>
+                    <li class="contact-link"> <a href="#services"> Service </a></li>
+                    <li class="contact-link"><a href="#portfolio"> My Projects </a></li>
+                    <li class="contact-link"><a href="#contact"> Contact </a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p> UI/UX Designer </p>
+                <h1> Hi, my name is <br></h1>
+            </div>
+        </div>
+
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1"><img src="ad.jpg"></div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Hi, I'm Aditya, an MSc Data Science student and aspiring data scientist. I'm passionate about uncovering insights from data, blending precision with creativity. With a solid foundation in data science techniques and machine learning, I love turning raw data into actionable strategies. Let's embark on this journey together, transforming data into valuable insights for innovation and success!</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class=" tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Web Designer</li>
+                            <li><span>Java</span><br>App Developer</li>
+                            <li><span>Python</span><br>Data Analyst</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023-current</span><br>UI/UX Design Training at CHRIST deemed to be university
+                            </li>
+                            <li><span>2022-2023</span><br>Product Manager at XyzApp</li>
+                            <li><span>2021-2022</span><br>UI/UX Design Intern at Forest.Inc</li>
+                            <li><span>2020-2021</span><br>Internship at XYZ Corp</li>
+                            <li><span>2022-2023</span><br>Exploratory Data Analyst at Something Something Corp</li
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022</span><br>BCA from Birla Institute of Technology, Mesra</li>
+                            <li><span>2019</span><br>Intermediate from Pallavi Model School</li>
+                            <li><span>2017</span><br>Matric from St. Michael's High School</li>
+
+
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web App Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, tenetur non modi provident
+                        itaque temporibus porro tempore animi beatae tempora ratione? Architecto provident quae corrupti
+                        aperiam. Illum reiciendis rem eveniet!</p>
+                    <a href="">learn more </a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, tenetur non modi provident
+                        itaque temporibus porro tempore animi beatae tempora ratione? Architecto provident quae corrupti
+                        aperiam. Illum reiciendis rem eveniet!</p>
+                    <a href="">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, tenetur non modi provident
+                        itaque temporibus porro tempore animi beatae tempora ratione? Architecto provident quae corrupti
+                        aperiam. Illum reiciendis rem eveniet!</p>
+                    <a href="">learn more </a>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="borestagram.jpeg" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur nisi hic quis!
+                            Blanditiis voluptate sequi cumque maiores distinctio. Cumque ad amet, aliquam numquam maxime
+                            ullam adipisci reprehenderit aut atque. Sequi.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="C:\Users\HP\OneDrive\Desktop\port\9500_2_2_03.jpg" alt="">
+                    <div class="layer">
+                        <h3>Calculator App</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur nisi hic quis!
+                            Blanditiis voluptate sequi cumque maiores distinctio. Cumque ad amet, aliquam numquam maxime
+                            ullam adipisci reprehenderit aut atque. Sequi.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="app3.jpg" alt="">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur nisi hic quis!
+                            Blanditiis voluptate sequi cumque maiores distinctio. Cumque ad amet, aliquam numquam maxime
+                            ullam adipisci reprehenderit aut atque. Sequi.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">contact me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>adityaks0119@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +91 7995721941</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/aditya2335/"><i
+                                class="fa-brands fa-square-facebook"></i></a>
+                        <a href="https://twitter.com/sleep08_"><i class="fa-brands fa-square-twitter"></i></a>
+                        <a href="https://www.instagram.com/_aditya_23/"><i
+                                class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/aditya-kumar-singh-2b202b248/"><i
+                                class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                    <a target="_blank" href="Christ deemed to be university.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links")
+        var tabcontents = document.getElementsByClassName("tab-contents")
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+
+        }
+    </script>
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemeu.style.right = "0";
+        }
+        function closemenu() {
+            sidemeu.style.right = "-200px";
+        }
+
+    </script>
+
+<script src="script.js"></script>
+</body>
+
+</html>
